@@ -2,7 +2,6 @@
 
 My initial typescript project boilerplate
 
-In your folder
 ```bash
 
 mkdir yourprojectname
