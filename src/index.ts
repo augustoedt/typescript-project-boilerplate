@@ -1,1 +1,3 @@
-console.log("Hello Word")
+import { logger } from './utils/logger';
+
+logger.info('hello!');
