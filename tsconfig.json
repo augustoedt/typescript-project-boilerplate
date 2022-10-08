@@ -16,7 +16,6 @@
       "forceConsistentCasingInFileNames": true,
 
       "outDir": "./dist",
-      "baseUrl": "./src"
     },
     "include": ["**/*"],
     "exclude": ["node_modules", "**/*.spec.ts", "dist"]
