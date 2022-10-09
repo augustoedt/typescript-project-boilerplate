@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { logger } from './utils/logger';
 
-logger.info('hello!');
+logger.info(`${process.env.PORT}`);
