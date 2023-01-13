@@ -5,6 +5,7 @@ declare global {
     interface ProcessEnv {
       PORT: number;
       ENV: 'TEST' | 'DEV' | 'PROD';
+      HOST: string;
     }
   }
 }
