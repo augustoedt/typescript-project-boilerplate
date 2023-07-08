@@ -15,21 +15,23 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.11.18",
-    "@typescript-eslint/eslint-plugin": "^5.48.1",
-    "@typescript-eslint/parser": "^5.48.1",
-    "eslint": "^8.31.0",
-    "eslint-config-prettier": "^8.6.0",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.32.0",
-    "nodemon": "^2.0.20",
+    "eslint-plugin-react": "^7.32.2",
+    "nodemon": "^2.0.22",
     "prettier": "^2.8.2",
     "rimraf": "^4.0.4",
     "ts-node": "^10.9.1",
-    "typescript": "*"
+    "typescript": "5.1.6"
   },
   "dependencies": {
-    "dotenv": "^16.0.3",
-    "pino": "^8.5.0",
-    "pino-pretty": "^9.1.0"
+    "dotenv": "^16.3.1",
+    "pino": "^8.14.1",
+    "pino-pretty": "^10.0.1",
+    "zennv": "^0.1.1",
+    "zod": "^3.21.4"
   }
 }
