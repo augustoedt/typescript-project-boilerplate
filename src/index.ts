@@ -1,4 +1,4 @@
-import "dotenv/config";
+import { env } from "./config/env";
 import { logger } from "./utils/logger";
 
-logger.info(`${process.env.HOST}:${process.env.PORT} - ${process.env.ENV}`);
+logger.info(`${env.HOST}:${env.PORT} - ${env.ENV}`);

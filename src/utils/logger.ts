@@ -1,5 +1,5 @@
-import pino from 'pino';
-import PinoPretty from 'pino-pretty';
+import pino from "pino";
+import PinoPretty from "pino-pretty";
 
 const stream = PinoPretty({ colorize: true });
 const logger = pino(
@@ -8,14 +8,14 @@ const logger = pino(
       pid: false,
     },
     transport: {
-      target: 'pino-pretty',
+      target: "pino-pretty",
       options: {
-        translateTime: 'dd/MM - HH:mm:ss',
-        ignore: 'pid, hostname',
+        translateTime: "dd/MM - HH:mm:ss",
+        ignore: "pid, hostname",
       },
     },
   },
-  stream,
+  stream
 );
 
 export { logger };
